@@ -1,9 +1,15 @@
+import Login from './components/Login';
+// import Register from './components/Register';
+// import EditAccount from './components/EditAccount';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Login/>
+      {/* <Register/> */}
+      {/* <EditAccount /> */}
+    </>
   );
 }
 
