@@ -1,14 +1,18 @@
 // import Login from './components/Login';
-import Register from './components/Register';
-// import EditAccount from './components/EditAccount';
+// import Register from './components/Register';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import EditAccount from './components/EditAccount';
 
 
 function App() {
   return (
     <>
       {/* <Login/> */}
-      <Register/>
-      {/* <EditAccount /> */}
+      {/* <Register/> */}
+      <Navbar/>
+      <EditAccount />
+      <Footer/>
     </>
   );
 }
