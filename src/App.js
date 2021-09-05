@@ -1,8 +1,11 @@
 // import Login from './components/Login';
 // import Register from './components/Register';
+// import EditAccount from './components/EditAccount';
+
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import EditAccount from './components/EditAccount';
+import RequestBounty from './components/RequestBounty';
+
 
 
 function App() {
@@ -10,8 +13,9 @@ function App() {
     <>
       {/* <Login/> */}
       {/* <Register/> */}
+      {/* <EditAccount /> */}
       <Navbar/>
-      <EditAccount />
+      <RequestBounty />
       <Footer/>
     </>
   );
