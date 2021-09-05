@@ -23,8 +23,8 @@ const DashboardBounty = () => {
   const modalTitle = {display:'flex', justifyContent:'space-between'}
   const modalSubtitle = {display:'flex', justifyContent:'space-between',marginBottom:'20px'}
   const form = { display:'flex',flexWrap:'wrap', justifyContent:'center', alignItems:'center'}
-  const actions = {display:'flex', justifyContent:'space-between'};
-  const points = {color: '#F8CC6A', marginLeft:'15px'}
+  const actions = {display:'flex', justifyContent:'space-between', alignItems:'center', margin:'0 10px'};
+  const points = {color: '#F8CC6A', marginLeft:'15px', fontWeight:'bold'}
   const spanPoint = {color: '#F8CC6A'}
   const dialog = {borderRadius:"50px"}
   const btnClaim = {backgroundColor:'#7e6df7',borderRadius: '15px', color:'white', fontWeight:'bold', width:'100px', marginBottom:'10px'}
