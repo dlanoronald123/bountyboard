@@ -3,10 +3,12 @@
 // import EditAccount from './components/EditAccount';
 // import RequestBounty from './components/RequestBounty';
 // import EditBounty from './components/EditBounty';
+// import DashboardAdmin from './components/DashboardAdmin';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import DashboardAdmin from './components/DashboardAdmin';
+import DashboardBounty from './components/DashboardBounty';
+
 
 
 
@@ -19,7 +21,7 @@ function App() {
       {/* <RequestBounty /> */}
       {/* <EditBounty /> */}
       <Navbar/>
-      <DashboardAdmin/>
+      <DashboardBounty />
       <Footer/>
     </>
   );
