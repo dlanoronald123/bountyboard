@@ -37,7 +37,7 @@ const Register = () => {
         <TextField label="Enter Username" fullWidth required style={textField}/>
 				<TextField label="Enter Password" type='password' fullWidth required style={textField}/>
         <TextField label="Confirm Password" type='password' fullWidth required style={textField}/>
-					<Button type='submit' style={btn} fullWidth variant='contained' onClick={() => {
+					<Button type='submit' style={btn} fullWidth variant='contained' href="/hunter" onClick={() => {
 							alert("I'm a button.");
 						}}>SIGN UP</Button>
 						<h4 align='center' style={subtitle}>OR</h4>
@@ -48,7 +48,7 @@ const Register = () => {
 
 					<Typography align='center' style={signup}>
 						Already have an account?
-						<Link href="#">
+						<Link href="/login">
 							 Log In
 						</Link>
 					</Typography>
