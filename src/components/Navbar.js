@@ -33,7 +33,7 @@ const Navbar = () => {
           <Typography variant="h6" className={classes.title}>
             BOUNTY BOARD
           </Typography>
-          <Button color="inherit" style={logout}>LOG OUT</Button>
+          <Button href="/login" color="inherit" style={logout}>LOG OUT</Button>
         </Toolbar>
       </AppBar>
     </div>

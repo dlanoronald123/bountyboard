@@ -35,7 +35,7 @@ const Login = () => {
 
 				<TextField label="Enter Email" fullWidth required style={textField}/>
 				<TextField label="Enter Password" type='password' fullWidth required style={textField}/>
-					<Button type='submit' style={btn} fullWidth variant='contained' onClick={() => {
+					<Button type='submit' style={btn} fullWidth variant='contained' href="/hunter" onClick={() => {
 							alert("I'm a button.");
 						}}>LOG IN</Button>
 						<h6 align='center' style={subtitle}>OR</h6>
@@ -46,7 +46,7 @@ const Login = () => {
 
 					<Typography align='center' style={signup}>
 						Can't Log In ? * 
-						<Link href="#">
+						<Link href="/signup">
 							Sign up for an account
 						</Link>
 					</Typography>
